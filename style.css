@@ -62,3 +62,14 @@ main,section,.hero-copy,.hero-card,.contact-inner{min-width:0;max-width:100%}
   .timeline-item{grid-template-columns:1fr;gap:7px}
   .contact-actions .btn,.resource-actions .btn{flex-basis:100%}
 }
+
+
+/* Speech Emotion Detection portfolio project */
+.speech-project{position:relative;overflow:hidden}
+.speech-project:before{content:"";position:absolute;inset:0 0 auto;height:2px;background:#b7ff4a;opacity:.85}
+.project-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}
+.project-actions .btn{padding:11px 14px;font-size:12px}
+.project-note{font-size:11px!important;color:#70757d!important;margin-top:12px;margin-bottom:0}
+@media(max-width:420px){
+  .project-actions .btn{flex:1 1 100%;justify-content:center}
+}
